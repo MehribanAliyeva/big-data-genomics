@@ -1,0 +1,18 @@
+[project]
+name = "feature-store-consistency"
+version = "0.1.0"
+description = "Online vs Offline Feature Store Consistency using PySpark"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pyspark==3.5.1",
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "matplotlib>=3.7",
+    "pyarrow>=12.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
